@@ -22,6 +22,18 @@ def homepage():
     """
 
 
+@app.route('/stanford')
+def stanford_page():
+    return """
+      <h1>Hello stanford!</h1>
+
+      <img src="https://maps.googleapis.com/maps/api/staticmap?size=700x300&markers=stanford" alt="map of stanford">
+
+      <img src="https://maps.googleapis.com/maps/api/streetview?size=700x300&location=stanford" alt="street view of stanford">
+    """
+
+
+
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=True)

@@ -14,8 +14,8 @@ HTML_TEMPLATE = Template("""
 
     <body style="width: 880px; margin: auto;">
     <h1>Hello ${place_name}!</h1>
-    <img src="https://maps.googleapis.com/maps/api/staticmap?size=700x300&markers=${place_name}" alt="map of ${place_name}">
-    <img src="https://maps.googleapis.com/maps/api/streetview?size=700x300&location=${place_name}" alt="street view of ${place_name}">
+    <img src="http://maps.googleapis.com/maps/api/staticmap?size=700x300&markers=${place_name}" alt="map of ${place_name}">
+    <img src="http://maps.googleapis.com/maps/api/streetview?size=700x300&location=${place_name}" alt="street view of ${place_name}">
     </body>
     """)
 

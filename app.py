@@ -26,7 +26,7 @@ HTML_TEMPLATE = Template("""
 @app.route('/')
 def homepage():
     vidhtml =  HTML_TEMPLATE.substitute(youtube_id='YQHsXMglC9A')
-    return """<h1>Hello world!</h1>""" + vidhtml
+    return """<h1>Hey world!</h1>""" + vidhtml
 
 
 
